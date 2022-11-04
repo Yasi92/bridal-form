@@ -1,0 +1,84 @@
+@media (min-width: 1400px){
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1300px;
+    }
+}
+
+.table-condensed td{
+ padding: 1rem;
+ min-width:5rem;
+ font-size: 1.1rem;
+}
+
+td{
+    border: solid 1px rgba(227, 227, 227, 0.635) !important;
+}
+
+/* Make the element unclickable */
+.datepicker-switch{
+    pointer-events: none;
+}
+
+.date-field, .form-select{
+    width: 565px;
+
+}
+
+
+table.table-condensed{
+    margin-top: 1rem;
+    -webkit-box-shadow: 42px 64px 64px -77px rgba(0,0,0,0.23);
+    -moz-box-shadow: 42px 64px 64px -77px rgba(0,0,0,0.23);
+    box-shadow: 42px 64px 64px -77px rgba(0,0,0,0.23);
+}
+
+.datepicker table tr td.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover {
+    background-color: #B7A6CD;
+    background-image:none !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08c', endColorstr='#0044cc', GradientType=0);
+    border-color: #B7A6CD;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active:active, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active[disabled]{
+    background-color: #B7A6CD;
+    
+}
+
+
+table.table-condensed th{
+    padding-top:1rem ;
+}
+
+table.table-condensed tr:nth-child(3) > th{
+    padding-bottom: 1rem;
+}
+
+table.table-condensed tr > th{
+    font-size: 1.1rem;
+
+}
+
+
+.availability-hours{
+    min-width: 8.63rem;
+    background-color: #B7A6CD;
+    border-color: #B7A6CD;
+}
+
+.btn-primary.availability-hours:active, .btn-primary.availability-hours:hover{
+    background-color: #B7A6CD;
+}
+
+.dropdown-gsm > select{
+    max-width: 100%;
+    width: 100%;
+}
+
+
+select{
+    min-width: 100%;
+}
