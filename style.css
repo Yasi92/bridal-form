@@ -82,3 +82,25 @@ table.table-condensed tr > th{
 select{
     min-width: 100%;
 }
+
+select.sm-select{
+    min-width: 48%;
+    width: 48%;
+}
+
+
+.form-floating>.form-select{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+#datepicker > input{
+    width: 50%;
+}
+
+div#datepicker > .form-control:focus, div#datepicker>.form-control:not(:placeholder-shown){
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
